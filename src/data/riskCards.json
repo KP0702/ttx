@@ -1,0 +1,118 @@
+{
+  "riskCards": [
+    {
+      "id": "operational",
+      "title": "Operational Disruptions",
+      "description": "Managing business operations during system outages and service disruptions",
+      "icon": "Building2",
+      "impact": "Business Continuity",
+      "roles": ["CFO", "Marketing", "IT System", "Legal Division"],
+      "questions": [
+        {
+          "question": "As CFO, what financial measures should be implemented immediately during the operational disruption?",
+          "scenario": "The ransomware attack has halted core business operations, stopping revenue generation. Emergency funds are available, but the duration of the outage is unknown.",
+          "options": [
+            "Access emergency funds only",
+            "Implement comprehensive financial contingency plan including emergency funds, credit lines, and insurance claims",
+            "Wait for system restoration",
+            "Only contact insurance provider"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A comprehensive financial response ensures business continuity and recovery.",
+          "hints": ["Consider multiple financial resources", "Think about immediate and short-term needs"],
+          "role": "CFO"
+        },
+        {
+          "question": "As Marketing Director, how should you handle customer communications during the disruption?",
+          "scenario": "Customers cannot access services and are complaining on social media. Support lines are overwhelmed. A consistent message is needed urgently.",
+          "options": [
+            "Delay all communications",
+            "Develop a strategic communication plan with transparent updates",
+            "Only respond to direct inquiries",
+            "Delegate to customer service"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Strategic communication maintains customer trust and manages expectations.",
+          "hints": ["Think about transparency", "Consider customer relationships"],
+          "role": "Marketing"
+        }
+      ]
+    },
+    {
+      "id": "ransom",
+      "title": "Ransom Pay",
+      "description": "Evaluating and managing ransom payment considerations",
+      "icon": "Banknote",
+      "impact": "Financial and Legal Implications",
+      "roles": ["CFO", "Marketing", "IT System", "Legal Division"],
+      "questions": [
+        {
+          "question": "As CFO, what financial analysis is needed for the ransom payment decision?",
+          "scenario": "The attackers demand a significant ransom. Paying might be faster than restoring, but recovery costs are high either way. A decision is needed soon.",
+          "options": [
+            "Only ransom amount",
+            "Comprehensive analysis of payment impact, recovery costs, and business losses",
+            "Basic cost comparison",
+            "Insurance coverage only"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A comprehensive financial analysis ensures informed decision-making.",
+          "hints": ["Consider all financial implications", "Think about long-term impact"],
+          "role": "CFO"
+        },
+        {
+          "question": "How should Marketing handle public perception if ransom payment is considered?",
+          "scenario": "Internal discussions about potentially paying the ransom are occurring. There's a risk this information could leak.",
+          "options": [
+            "No communication",
+            "Develop strategic messaging focusing on business continuity and customer protection",
+            "Deny all payment discussions",
+            "Only internal communications"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Strategic messaging helps manage stakeholder perceptions.",
+          "hints": ["Consider stakeholder concerns", "Think about transparency levels"],
+          "role": "Marketing"
+        }
+      ]
+    },
+    {
+      "id": "financial",
+      "title": "Financial Loss",
+      "description": "Managing financial impact and recovery costs",
+      "icon": "Banknote",
+      "impact": "Financial Management",
+      "roles": ["CFO", "Marketing", "IT System", "Legal Division"],
+      "questions": [
+        {
+          "question": "As CFO, how should you assess the total financial impact?",
+          "scenario": "The incident involves direct costs (recovery, ransom if paid) and indirect costs (lost revenue, reputational harm). A full picture is needed.",
+          "options": [
+            "Only direct costs",
+            "Comprehensive analysis including direct costs, indirect losses, and long-term implications",
+            "Basic damage estimate",
+            "Wait for final numbers"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A comprehensive analysis ensures all financial impacts are considered.",
+          "hints": ["Consider all cost types", "Think about long-term effects"],
+          "role": "CFO"
+        },
+        {
+          "question": "How should Marketing communicate financial impacts to stakeholders?",
+          "scenario": "The financial losses are substantial and must be reported. The messaging needs to be carefully crafted for investors and the public.",
+          "options": [
+            "Share all details",
+            "Develop strategic messaging that balances transparency with confidence in recovery",
+            "No communication",
+            "Only internal updates"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Strategic communication maintains stakeholder confidence.",
+          "hints": ["Consider stakeholder needs", "Think about market impact"],
+          "role": "Marketing"
+        }
+      ]
+    }
+  ]
+} 
